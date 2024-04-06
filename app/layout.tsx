@@ -19,8 +19,8 @@ export default function RootLayout({
 }>): JSX.Element {
   return (
     <html lang="ko">
-      <body className={`${NotoSansKR.className} h-dvh w-dvw bg-slate-50`}>
-        <div className="app bg-stone-100">
+      <body className={`${NotoSansKR.className} h-dvh w-dvw bg-slate-100`}>
+        <div className="app bg-slate-200">
           <header className="header">
             <h1 className="title">
               RWAM
@@ -28,7 +28,7 @@ export default function RootLayout({
             </h1>
           </header>
           <nav className="menu">
-            <ul className="menu__ul"></ul>
+            <ul className="menu-box"></ul>
           </nav>
           {children}
         </div>
