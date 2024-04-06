@@ -22,13 +22,19 @@ export default function RootLayout({
       <body className={`${NotoSansKR.className} h-dvh w-dvw bg-slate-100`}>
         <div className="app bg-slate-200">
           <header className="header">
-            <h1 className="title">
-              김성주
-              <span className="block">RWAMIN</span>
-            </h1>
+            <h1 className="title">김성주</h1>
+            <p className="position">프론트엔드</p>
           </header>
           <nav className="menu">
-            <ul className="menu-box"></ul>
+            <ul className="menu__ul">
+              {/* <li className="menu__li intro">요약</li>
+              <li className="menu__li resume">이력</li>
+              <li className="menu__li portfolio">포트폴리오</li>
+              <li className="menu__li portfolio">자기소개</li> */}
+            </ul>
+            <button type="button" className="menu__download">
+              PDF
+            </button>
           </nav>
           {children}
         </div>
