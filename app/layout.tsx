@@ -19,7 +19,20 @@ export default function RootLayout({
 }>): JSX.Element {
   return (
     <html lang="ko">
-      <body className={`${NotoSansKR.className} h-dvh w-dvw`}>{children}</body>
+      <body className={`${NotoSansKR.className} h-dvh w-dvw bg-slate-50`}>
+        <div className="app bg-stone-100">
+          <header className="header">
+            <h1 className="title">
+              RWAM
+              <span className="block">김성주</span>
+            </h1>
+          </header>
+          <nav className="menu">
+            <ul className="menu__ul"></ul>
+          </nav>
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

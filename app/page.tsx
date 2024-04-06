@@ -1,3 +1,3 @@
 export default function Home(): JSX.Element {
-  return <main className="content"></main>
+  return <main className="content">First Page</main>
 }
