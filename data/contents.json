@@ -1,0 +1,37 @@
+{
+  "title": "김성주",
+  "position": "프론트엔드",
+  "description": "",
+  "contacts": {
+    "phone": "010-9716-1132",
+    "email": "art.rwam@gmail.com"
+  },
+  "stacks": {
+    "frontend": [],
+    "design": []
+  },
+  "pages": {
+    "resume": {
+      "title": "이력",
+      "contents": {
+        "education": [],
+        "career": [],
+        "addition": []
+      }
+    },
+    "portfolios": {
+      "title": "포트폴리오",
+      "contents": [
+        {
+          "title": "",
+          "description": "",
+          "contents": ""
+        }
+      ]
+    },
+    "introduction": {
+      "title": "자기소개",
+      "contents": [{ "title": "", "contents": "" }]
+    }
+  }
+}
