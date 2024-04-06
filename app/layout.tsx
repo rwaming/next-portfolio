@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Noto_Sans_KR } from 'next/font/google'
 import './globals.css'
 
-const inter = Noto_Sans_KR({
+const NotoSansKR = Noto_Sans_KR({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 })
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>): JSX.Element {
   return (
     <html lang="ko">
-      <body className={inter.className}>{children}</body>
+      <body className={NotoSansKR.className}>{children}</body>
     </html>
   )
 }
