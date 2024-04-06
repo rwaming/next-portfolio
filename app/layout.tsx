@@ -19,7 +19,9 @@ export default function RootLayout({
 }>): JSX.Element {
   return (
     <html lang="ko">
-      <body className={NotoSansKR.className}>{children}</body>
+      <body className={`${NotoSansKR.className} h-full w-full`}>
+        {children}
+      </body>
     </html>
   )
 }
