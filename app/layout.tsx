@@ -23,8 +23,8 @@ export default function RootLayout({
         <div className="app bg-slate-200">
           <header className="header">
             <h1 className="title">
-              RWAM
-              <span className="block">김성주</span>
+              김성주
+              <span className="block">RWAMIN</span>
             </h1>
           </header>
           <nav className="menu">
